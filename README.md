@@ -44,9 +44,9 @@
 
 
 TO DO:  
- -【OK】 這個原始碼還有一個subscribe到跑yolo的node的另一個程式碼，我目前還沒有去撰寫。主要撰寫目的為進一步擴展功能，比如檢測結果的後處理、導航控制等，尤其在需要動態反應或複雜計算（如與目標物的距離計算）。很有可能會是BT_navigation會呼叫的package或Node。  
+ - 【OK】這個原始碼還有一個subscribe到跑yolo的node的另一個程式碼，我目前還沒有去撰寫。主要撰寫目的為進一步擴展功能，比如檢測結果的後處理、導航控制等，尤其在需要動態反應或複雜計算（如與目標物的距離計算）。很有可能會是BT_navigation會呼叫的package或Node。  
    ┕決定分開判斷與前進的節點，而Ok的原因是增加了targetfollower.py  
-   ![alt text](image.png)  
+   
  - 【OK】請先測試yolo偵測結果，特別注重camera的FPS與yolo的detect speed有無吻合。  
    ┕```v4l2-ctl --list-devices```= This is to check if whether it catched the video  
    ┕```ros2 launch yolov8 launch_yolov8.py```=After colcon build/install you can use this to run  
