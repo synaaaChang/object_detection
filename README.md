@@ -13,29 +13,29 @@
         D.```sudo apt install v4l-utils```  
         E.```sudo chmod 666 /dev/video0```  
         F.You can add a yaml to make camera calibiration:  
-          ```mkdir -p ~/.ros/camera_info```
-          ```nano ~/.ros/camera_info/microsoft_lifecam_nx-3000:_micr.yaml```
-          ```#default settings, you can change according to your application
-              image_width: 640
-              image_height: 480
-              camera_name: microsoft_lifecam_nx-3000:_micr
-              camera_matrix:
-                rows: 3
-                cols: 3
-                data: [500, 0, 320, 0, 500, 240, 0, 0, 1]
-              distortion_model: plumb_bob
-              distortion_coefficients:
-                rows: 1
-                cols: 5
-                data: [0, 0, 0, 0, 0]
-              rectification_matrix:
-                rows: 3
-                cols: 3
-                data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
-              projection_matrix:
-                rows: 3
-                cols: 4
-                data: [500, 0, 320, 0, 0, 500, 240, 0, 0, 0, 1, 0]
+          ```mkdir -p ~/.ros/camera_info```  
+          ```nano ~/.ros/camera_info/microsoft_lifecam_nx-3000:_micr.yaml```  
+          ```#default settings, you can change according to your application  
+              image_width: 640  
+              image_height: 480  
+              camera_name: microsoft_lifecam_nx-3000:_micr  
+              camera_matrix:  
+                rows: 3  
+                cols: 3  
+                data: [500, 0, 320, 0, 500, 240, 0, 0, 1]  
+              distortion_model: plumb_bob  
+              distortion_coefficients:  
+                rows: 1  
+                cols: 5  
+                data: [0, 0, 0, 0, 0]  
+              rectification_matrix:  
+                rows: 3  
+                cols: 3  
+                data: [1, 0, 0, 0, 1, 0, 0, 0, 1]  
+              projection_matrix:  
+                rows: 3  
+                cols: 4  
+                data: [500, 0, 320, 0, 0, 500, 240, 0, 0, 0, 1, 0]  
           ```
         G.You MUST FIRST RUN camera NODE:  
           ```sudo ros2 run v4l2_camera v4l2_camera_node --ros-args -p video_device:="/dev/video0"```
