@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
 from yolov8_def.msg import YoloRawInfo, Boundingboxresult, TargetOffset  # 引入自定義消息

@@ -1,0 +1,200 @@
+[0.110s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'yolov8', 'yolov8_def']
+[0.110s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['yolov8', 'yolov8_def'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7df4f43e4d00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7df4f43e4790>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7df4f43e4790>>)
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.140s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/synaaa/object_detection_test'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(yolov8) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(yolov8) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(yolov8) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(yolov8) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(yolov8) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(yolov8) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(yolov8) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(yolov8) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(yolov8) by extension 'ros'
+[0.154s] DEBUG:colcon.colcon_core.package_identification:Package 'yolov8' with type 'ros.ament_cmake' and name 'yolov8'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(yolov8_def) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(yolov8_def) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(yolov8_def) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(yolov8_def) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(yolov8_def) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(yolov8_def) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(yolov8_def) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(yolov8_def) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(yolov8_def) by extension 'ros'
+[0.155s] DEBUG:colcon.colcon_core.package_identification:Package 'yolov8_def' with type 'ros.ament_cmake' and name 'yolov8_def'
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.170s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/synaaa/object_detection_test/install
+[0.171s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/synaaa/ros2_ws/install
+[0.172s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 386 installed packages in /opt/ros/humble
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'yolov8_def' build argument 'cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'yolov8_def' build argument 'cmake_target' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'yolov8_def' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'yolov8_def' build argument 'cmake_clean_cache' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'yolov8_def' build argument 'cmake_clean_first' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'yolov8_def' build argument 'cmake_force_configure' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'yolov8_def' build argument 'ament_cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'yolov8_def' build argument 'catkin_cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'yolov8_def' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.206s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_def' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/synaaa/object_detection_test/build/yolov8_def', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/synaaa/object_detection_test/install/yolov8_def', 'merge_install': False, 'path': '/home/synaaa/object_detection_test/yolov8_def', 'symlink_install': False, 'test_result_base': None}
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'yolov8' build argument 'cmake_args' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'yolov8' build argument 'cmake_target' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'yolov8' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'yolov8' build argument 'cmake_clean_cache' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'yolov8' build argument 'cmake_clean_first' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'yolov8' build argument 'cmake_force_configure' from command line to 'False'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'yolov8' build argument 'ament_cmake_args' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'yolov8' build argument 'catkin_cmake_args' from command line to 'None'
+[0.207s] Level 5:colcon.colcon_core.verb:set package 'yolov8' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.207s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/synaaa/object_detection_test/build/yolov8', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/synaaa/object_detection_test/install/yolov8', 'merge_install': False, 'path': '/home/synaaa/object_detection_test/yolov8', 'symlink_install': False, 'test_result_base': None}
+[0.207s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.208s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.208s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/synaaa/object_detection_test/yolov8_def' with build type 'ament_cmake'
+[0.208s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/synaaa/object_detection_test/yolov8_def'
+[0.210s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.210s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.210s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/synaaa/object_detection_test/build/yolov8_def': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/synaaa/object_detection_test/build/yolov8_def -- -j16 -l16
+[0.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/synaaa/object_detection_test/build/yolov8_def' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/synaaa/object_detection_test/build/yolov8_def -- -j16 -l16
+[0.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/synaaa/object_detection_test/build/yolov8_def': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/synaaa/object_detection_test/build/yolov8_def
+[0.642s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_def)
+[0.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/synaaa/object_detection_test/build/yolov8_def' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/synaaa/object_detection_test/build/yolov8_def
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8_def' for CMake module files
+[0.645s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8_def' for CMake config files
+[0.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_def', 'cmake_prefix_path')
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/hook/cmake_prefix_path.ps1'
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/hook/cmake_prefix_path.dsv'
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/hook/cmake_prefix_path.sh'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8_def/lib'
+[0.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_def', 'ld_library_path_lib')
+[0.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/hook/ld_library_path_lib.ps1'
+[0.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/hook/ld_library_path_lib.dsv'
+[0.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/hook/ld_library_path_lib.sh'
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8_def/bin'
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8_def/lib/pkgconfig/yolov8_def.pc'
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8_def/lib/python3.10/site-packages'
+[0.648s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8_def/bin'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/package.ps1'
+[0.649s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/package.dsv'
+[0.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/package.sh'
+[0.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/package.bash'
+[0.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/package.zsh'
+[0.650s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/synaaa/object_detection_test/install/yolov8_def/share/colcon-core/packages/yolov8_def)
+[0.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_def)
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8_def' for CMake module files
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8_def' for CMake config files
+[0.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_def', 'cmake_prefix_path')
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/hook/cmake_prefix_path.ps1'
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/hook/cmake_prefix_path.dsv'
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/hook/cmake_prefix_path.sh'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8_def/lib'
+[0.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_def', 'ld_library_path_lib')
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/hook/ld_library_path_lib.ps1'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/hook/ld_library_path_lib.dsv'
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/hook/ld_library_path_lib.sh'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8_def/bin'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8_def/lib/pkgconfig/yolov8_def.pc'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8_def/lib/python3.10/site-packages'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8_def/bin'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/package.ps1'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/package.dsv'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/package.sh'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/package.bash'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/package.zsh'
+[0.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/synaaa/object_detection_test/install/yolov8_def/share/colcon-core/packages/yolov8_def)
+[0.743s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/synaaa/object_detection_test/yolov8' with build type 'ament_cmake'
+[0.743s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/synaaa/object_detection_test/yolov8'
+[0.743s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.743s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/synaaa/object_detection_test/build/yolov8': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble LD_LIBRARY_PATH=/home/synaaa/object_detection_test/install/yolov8_def/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/synaaa/object_detection_test/build/yolov8 -- -j16 -l16
+[0.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/synaaa/object_detection_test/build/yolov8' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble LD_LIBRARY_PATH=/home/synaaa/object_detection_test/install/yolov8_def/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/synaaa/object_detection_test/build/yolov8 -- -j16 -l16
+[0.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/synaaa/object_detection_test/build/yolov8': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble LD_LIBRARY_PATH=/home/synaaa/object_detection_test/install/yolov8_def/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/synaaa/object_detection_test/build/yolov8
+[0.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8)
+[0.812s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8' for CMake module files
+[0.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/synaaa/object_detection_test/build/yolov8' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble LD_LIBRARY_PATH=/home/synaaa/object_detection_test/install/yolov8_def/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/synaaa/object_detection_test/build/yolov8
+[0.812s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8' for CMake config files
+[0.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8', 'cmake_prefix_path')
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/synaaa/object_detection_test/install/yolov8/share/yolov8/hook/cmake_prefix_path.ps1'
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/synaaa/object_detection_test/install/yolov8/share/yolov8/hook/cmake_prefix_path.dsv'
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/synaaa/object_detection_test/install/yolov8/share/yolov8/hook/cmake_prefix_path.sh'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8/lib'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8/bin'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8/lib/pkgconfig/yolov8.pc'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8/lib/python3.10/site-packages'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8/bin'
+[0.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/synaaa/object_detection_test/install/yolov8/share/yolov8/package.ps1'
+[0.814s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/synaaa/object_detection_test/install/yolov8/share/yolov8/package.dsv'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/synaaa/object_detection_test/install/yolov8/share/yolov8/package.sh'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/synaaa/object_detection_test/install/yolov8/share/yolov8/package.bash'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/synaaa/object_detection_test/install/yolov8/share/yolov8/package.zsh'
+[0.815s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/synaaa/object_detection_test/install/yolov8/share/colcon-core/packages/yolov8)
+[0.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8)
+[0.835s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8' for CMake module files
+[0.836s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8' for CMake config files
+[0.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8', 'cmake_prefix_path')
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/synaaa/object_detection_test/install/yolov8/share/yolov8/hook/cmake_prefix_path.ps1'
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/synaaa/object_detection_test/install/yolov8/share/yolov8/hook/cmake_prefix_path.dsv'
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/synaaa/object_detection_test/install/yolov8/share/yolov8/hook/cmake_prefix_path.sh'
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8/lib'
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8/bin'
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8/lib/pkgconfig/yolov8.pc'
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8/lib/python3.10/site-packages'
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/synaaa/object_detection_test/install/yolov8/bin'
+[0.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/synaaa/object_detection_test/install/yolov8/share/yolov8/package.ps1'
+[0.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/synaaa/object_detection_test/install/yolov8/share/yolov8/package.dsv'
+[0.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/synaaa/object_detection_test/install/yolov8/share/yolov8/package.sh'
+[0.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/synaaa/object_detection_test/install/yolov8/share/yolov8/package.bash'
+[0.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/synaaa/object_detection_test/install/yolov8/share/yolov8/package.zsh'
+[0.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/synaaa/object_detection_test/install/yolov8/share/colcon-core/packages/yolov8)
+[0.839s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.839s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.839s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.839s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.843s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.843s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.843s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.851s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.852s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/synaaa/object_detection_test/install/local_setup.ps1'
+[0.852s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/synaaa/object_detection_test/install/_local_setup_util_ps1.py'
+[0.853s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/synaaa/object_detection_test/install/setup.ps1'
+[0.854s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/synaaa/object_detection_test/install/local_setup.sh'
+[0.854s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/synaaa/object_detection_test/install/_local_setup_util_sh.py'
+[0.855s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/synaaa/object_detection_test/install/setup.sh'
+[0.855s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/synaaa/object_detection_test/install/local_setup.bash'
+[0.856s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/synaaa/object_detection_test/install/setup.bash'
+[0.856s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/synaaa/object_detection_test/install/local_setup.zsh'
+[0.857s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/synaaa/object_detection_test/install/setup.zsh'

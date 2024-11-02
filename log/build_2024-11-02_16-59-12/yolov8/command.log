@@ -1,4 +1,0 @@
-Invoking command in '/home/synaaa/object_detection_test/build/yolov8': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/synaaa/object_detection_test/build/yolov8 -- -j16 -l16
-Invoked command in '/home/synaaa/object_detection_test/build/yolov8' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/synaaa/object_detection_test/build/yolov8 -- -j16 -l16
-Invoking command in '/home/synaaa/object_detection_test/build/yolov8': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/synaaa/object_detection_test/build/yolov8
-Invoked command in '/home/synaaa/object_detection_test/build/yolov8' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/synaaa/object_detection_test/build/yolov8

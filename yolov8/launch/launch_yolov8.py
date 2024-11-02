@@ -12,12 +12,12 @@ def generate_launch_description():
     yolov8_script_file_dir = os.path.join(get_package_share_directory('yolov8'), 'scripts')
 
     return LaunchDescription([
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([yolov8_script_file_dir, '/yolov8_model.py'])
-        ),
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([yolov8_script_file_dir, '/yolov8_TargetFollower.py'])
-        ),
+        # IncludeLaunchDescription(
+        #     PythonLaunchDescriptionSource([yolov8_script_file_dir, '/yolov8_model.py'])
+        # ),
+        # IncludeLaunchDescription(
+        #     PythonLaunchDescriptionSource([yolov8_script_file_dir, '/yolov8_TargetFollower.py'])
+        # ),
         Node(
             package='yolov8',
             executable='yolov8_model.py'

@@ -1,8 +1,0 @@
-[0.008s] Invoking command in '/home/synaaa/object_detection_test/build/yolov8_def': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/synaaa/object_detection_test/yolov8_def -DCMAKE_INSTALL_PREFIX=/home/synaaa/object_detection_test/install/yolov8_def
-[0.015s] [31mCMake Error at CMakeLists.txt:32:
-[0.015s]   Parse error.  Expected a command name, got bad character with text "\".
-[0.015s] 
-[0.015s] -- Configuring incomplete, errors occurred!
-[0.015s] See also "/home/synaaa/object_detection_test/build/yolov8_def/CMakeFiles/CMakeOutput.log".
-[0.015s] [0m
-[0.016s] Invoked command in '/home/synaaa/object_detection_test/build/yolov8_def' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/synaaa/object_detection_test/yolov8_def -DCMAKE_INSTALL_PREFIX=/home/synaaa/object_detection_test/install/yolov8_def
