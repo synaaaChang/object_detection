@@ -1,0 +1,10 @@
+setup.py
+yolov8_def/__init__.py
+yolov8_def.egg-info/PKG-INFO
+yolov8_def.egg-info/SOURCES.txt
+yolov8_def.egg-info/dependency_links.txt
+yolov8_def.egg-info/top_level.txt
+yolov8_def/msg/__init__.py
+yolov8_def/msg/_boundingboxresult.py
+yolov8_def/msg/_target_offset.py
+yolov8_def/msg/_yolo_raw_info.py

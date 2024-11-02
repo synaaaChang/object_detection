@@ -1,0 +1,33 @@
+[0.008s] Invoking command in '/home/synaaa/object_detection_test/build/yolov8_def': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/synaaa/object_detection_test/yolov8_def -DCMAKE_INSTALL_PREFIX=/home/synaaa/object_detection_test/install/yolov8_def
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.091s] -- The CXX compiler identification is GNU 11.4.0
+[0.096s] -- Detecting C compiler ABI info
+[0.151s] -- Detecting C compiler ABI info - done
+[0.156s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.156s] -- Detecting C compile features
+[0.157s] -- Detecting C compile features - done
+[0.159s] -- Detecting CXX compiler ABI info
+[0.222s] -- Detecting CXX compiler ABI info - done
+[0.227s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.227s] -- Detecting CXX compile features
+[0.228s] -- Detecting CXX compile features - done
+[0.230s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.490s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.556s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.596s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.602s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.611s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.626s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.643s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.669s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.676s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.676s]   rosidl_generate_interfaces() the passed file 'msg/yolo_raw_info.msg'
+[0.676s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.676s]   '/home/synaaa/object_detection_test/yolov8_def'
+[0.676s] Call Stack (most recent call first):
+[0.677s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[0.677s] 
+[0.677s] [0m
+[0.677s] -- Configuring incomplete, errors occurred!
+[0.677s] See also "/home/synaaa/object_detection_test/build/yolov8_def/CMakeFiles/CMakeOutput.log".
+[0.681s] Invoked command in '/home/synaaa/object_detection_test/build/yolov8_def' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/synaaa/object_detection_test/yolov8_def -DCMAKE_INSTALL_PREFIX=/home/synaaa/object_detection_test/install/yolov8_def

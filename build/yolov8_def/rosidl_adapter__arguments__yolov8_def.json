@@ -1,0 +1,8 @@
+{
+  "package_name": "yolov8_def",
+  "non_idl_tuples": [
+    "/home/synaaa/object_detection_test/yolov8_def:msg/Boundingboxresult.msg",
+    "/home/synaaa/object_detection_test/yolov8_def:msg/YoloRawInfo.msg",
+    "/home/synaaa/object_detection_test/yolov8_def:msg/TargetOffset.msg"
+  ]
+}

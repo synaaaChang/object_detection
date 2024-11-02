@@ -1,0 +1,39 @@
+[0.011s] Invoking command in '/home/synaaa/object_detection_test/build/yolov8': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/synaaa/object_detection_test/build/yolov8 -- -j16 -l16
+[0.030s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.127s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.180s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.182s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.182s] -- Added test 'lint_cmake' to check CMake code style
+[0.182s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.183s] -- Added test 'xmllint' to check XML markup files
+[0.183s] -- Configuring done
+[0.186s] -- Generating done
+[0.187s] -- Build files have been written to: /home/synaaa/object_detection_test/build/yolov8
+[0.205s] Invoked command in '/home/synaaa/object_detection_test/build/yolov8' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/synaaa/object_detection_test/build/yolov8 -- -j16 -l16
+[0.234s] Invoking command in '/home/synaaa/object_detection_test/build/yolov8': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/synaaa/object_detection_test/build/yolov8
+[0.241s] -- Install configuration: ""
+[0.241s] -- Up-to-date: /home/synaaa/object_detection_test/install/yolov8/share/yolov8//scripts
+[0.241s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8//scripts/yolov8_model.py
+[0.241s] -- Up-to-date: /home/synaaa/object_detection_test/install/yolov8/share/yolov8//scripts/best.pt
+[0.242s] -- Up-to-date: /home/synaaa/object_detection_test/install/yolov8/share/yolov8//scripts/yolov8_TargetFollower.py
+[0.242s] -- Up-to-date: /home/synaaa/object_detection_test/install/yolov8/share/yolov8//launch
+[0.242s] -- Up-to-date: /home/synaaa/object_detection_test/install/yolov8/share/yolov8//launch/launch_yolov8.py
+[0.242s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/lib/yolov8/yolov8_model.py
+[0.242s] -- Up-to-date: /home/synaaa/object_detection_test/install/yolov8/lib/yolov8/yolov8_TargetFollower.py
+[0.242s] -- Up-to-date: /home/synaaa/object_detection_test/install/yolov8/lib/yolov8/launch_yolov8.py
+[0.242s] -- Up-to-date: /home/synaaa/object_detection_test/install/yolov8/share/ament_index/resource_index/package_run_dependencies/yolov8
+[0.242s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/ament_index/resource_index/parent_prefix_path/yolov8
+[0.242s] -- Up-to-date: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/environment/ament_prefix_path.sh
+[0.242s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/environment/ament_prefix_path.dsv
+[0.242s] -- Up-to-date: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/environment/path.sh
+[0.242s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/environment/path.dsv
+[0.242s] -- Up-to-date: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/local_setup.bash
+[0.242s] -- Up-to-date: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/local_setup.sh
+[0.242s] -- Up-to-date: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/local_setup.zsh
+[0.242s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/local_setup.dsv
+[0.243s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/package.dsv
+[0.243s] -- Up-to-date: /home/synaaa/object_detection_test/install/yolov8/share/ament_index/resource_index/packages/yolov8
+[0.243s] -- Up-to-date: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/cmake/yolov8Config.cmake
+[0.243s] -- Up-to-date: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/cmake/yolov8Config-version.cmake
+[0.243s] -- Up-to-date: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/package.xml
+[0.244s] Invoked command in '/home/synaaa/object_detection_test/build/yolov8' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/synaaa/object_detection_test/build/yolov8

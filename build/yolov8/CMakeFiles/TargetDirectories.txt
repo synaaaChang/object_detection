@@ -1,0 +1,9 @@
+/home/synaaa/object_detection_test/build/yolov8/CMakeFiles/uninstall.dir
+/home/synaaa/object_detection_test/build/yolov8/CMakeFiles/yolov8_uninstall.dir
+/home/synaaa/object_detection_test/build/yolov8/CMakeFiles/test.dir
+/home/synaaa/object_detection_test/build/yolov8/CMakeFiles/edit_cache.dir
+/home/synaaa/object_detection_test/build/yolov8/CMakeFiles/rebuild_cache.dir
+/home/synaaa/object_detection_test/build/yolov8/CMakeFiles/list_install_components.dir
+/home/synaaa/object_detection_test/build/yolov8/CMakeFiles/install.dir
+/home/synaaa/object_detection_test/build/yolov8/CMakeFiles/install/local.dir
+/home/synaaa/object_detection_test/build/yolov8/CMakeFiles/install/strip.dir

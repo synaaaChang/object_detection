@@ -1,0 +1,265 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/synaaa/object_detection_test/build/yolov8_def
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  4%] Built target ament_cmake_python_copy_yolov8_def
+running egg_info
+writing yolov8_def.egg-info/PKG-INFO
+writing dependency_links to yolov8_def.egg-info/dependency_links.txt
+writing top-level names to yolov8_def.egg-info/top_level.txt
+reading manifest file 'yolov8_def.egg-info/SOURCES.txt'
+writing manifest file 'yolov8_def.egg-info/SOURCES.txt'
+[35m[1mConsolidate compiler generated dependencies of target yolov8_def__rosidl_generator_c[0m
+[  4%] Built target yolov8_def__cpp
+[  4%] Built target ament_cmake_python_build_yolov8_def_egg
+[ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 12%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_generator_c.dir/rosidl_generator_c/yolov8_def/msg/detail/boundingboxresult__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_generator_c.dir/rosidl_generator_c/yolov8_def/msg/detail/yolo_raw_info__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_generator_c.dir/rosidl_generator_c/yolov8_def/msg/detail/target_offset__functions.c.o[0m
+[ 19%] [32m[1mLinking C shared library libyolov8_def__rosidl_generator_c.so[0m
+[ 19%] Built target yolov8_def__rosidl_generator_c
+[ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mConsolidate compiler generated dependencies of target yolov8_def__rosidl_typesupport_cpp[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_def/msg/yolo_raw_info__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_def/msg/target_offset__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_def/msg/boundingboxresult__type_support.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target yolov8_def__rosidl_typesupport_introspection_cpp[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_def/msg/detail/yolo_raw_info__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_def/msg/detail/boundingboxresult__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_def/msg/detail/target_offset__type_support.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target yolov8_def__rosidl_typesupport_fastrtps_cpp[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_def/msg/detail/dds_fastrtps/boundingboxresult__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_def/msg/detail/dds_fastrtps/target_offset__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_def/msg/detail/dds_fastrtps/yolo_raw_info__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_def/msg/target_offset__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_def/msg/yolo_raw_info__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_def/msg/boundingboxresult__type_support.cpp.o[0m
+[ 53%] [32m[1mLinking CXX shared library libyolov8_def__rosidl_typesupport_c.so[0m
+[ 55%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_def/msg/detail/boundingboxresult__type_support.c.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_def/msg/detail/target_offset__type_support.c.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_def/msg/detail/yolo_raw_info__type_support.c.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_def/msg/detail/target_offset__type_support_c.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_def/msg/detail/yolo_raw_info__type_support_c.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_def/msg/detail/boundingboxresult__type_support_c.cpp.o[0m
+[ 65%] Built target yolov8_def__rosidl_typesupport_c
+[ 68%] [32m[1mLinking C shared library libyolov8_def__rosidl_typesupport_introspection_c.so[0m
+[ 68%] Built target yolov8_def__rosidl_typesupport_introspection_c
+[ 70%] [32m[1mLinking CXX shared library libyolov8_def__rosidl_typesupport_cpp.so[0m
+[ 70%] Built target yolov8_def__rosidl_typesupport_cpp
+[ 72%] [32m[1mLinking CXX shared library libyolov8_def__rosidl_typesupport_introspection_cpp.so[0m
+[ 74%] [32m[1mLinking CXX shared library libyolov8_def__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 74%] Built target yolov8_def__rosidl_typesupport_introspection_cpp
+[ 74%] Built target yolov8_def__rosidl_typesupport_fastrtps_cpp
+[ 76%] [32m[1mLinking CXX shared library libyolov8_def__rosidl_typesupport_fastrtps_c.so[0m
+[ 76%] Built target yolov8_def__rosidl_typesupport_fastrtps_c
+[ 76%] Built target yolov8_def
+[ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 78%] Built target yolov8_def__py
+[ 85%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_generator_py.dir/rosidl_generator_py/yolov8_def/msg/_target_offset_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_generator_py.dir/rosidl_generator_py/yolov8_def/msg/_boundingboxresult_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_generator_py.dir/rosidl_generator_py/yolov8_def/msg/_yolo_raw_info_s.c.o[0m
+[ 87%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_def/libyolov8_def__rosidl_generator_py.so[0m
+[ 87%] Built target yolov8_def__rosidl_generator_py
+[ 91%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolov8_def/_yolov8_def_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolov8_def/_yolov8_def_s.ep.rosidl_typesupport_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolov8_def/_yolov8_def_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_def/yolov8_def_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_def/yolov8_def_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_def/yolov8_def_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target yolov8_def__rosidl_typesupport_c__pyext
+[100%] Built target yolov8_def__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target yolov8_def__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/ament_index/resource_index/rosidl_interfaces/yolov8_def
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/yolo_raw_info.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/target_offset.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/yolo_raw_info__functions.c
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/boundingboxresult__functions.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/yolo_raw_info__struct.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/boundingboxresult__struct.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/target_offset__struct.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/boundingboxresult__functions.c
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/target_offset__type_support.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/boundingboxresult__type_support.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/yolo_raw_info__type_support.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/target_offset__functions.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/yolo_raw_info__functions.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/target_offset__functions.c
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/boundingboxresult.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/environment/library_path.sh
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/environment/library_path.dsv
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/lib/libyolov8_def__rosidl_generator_c.so
+-- Set runtime path of "/home/synaaa/object_detection_test/install/yolov8_def/lib/libyolov8_def__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def
+-- Up-to-date: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg
+-- Up-to-date: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/boundingboxresult__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/yolo_raw_info__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/target_offset__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/lib/libyolov8_def__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/synaaa/object_detection_test/install/yolov8_def/lib/libyolov8_def__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def
+-- Up-to-date: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/target_offset.hpp
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/boundingboxresult.hpp
+-- Up-to-date: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/boundingboxresult__struct.hpp
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/yolo_raw_info__struct.hpp
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/yolo_raw_info__traits.hpp
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/yolo_raw_info__builder.hpp
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/boundingboxresult__builder.hpp
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/target_offset__builder.hpp
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/target_offset__struct.hpp
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/target_offset__traits.hpp
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/boundingboxresult__traits.hpp
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/yolo_raw_info.hpp
+-- Up-to-date: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def
+-- Up-to-date: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/yolo_raw_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/target_offset__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/boundingboxresult__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/dds_fastrtps
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/lib/libyolov8_def__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/synaaa/object_detection_test/install/yolov8_def/lib/libyolov8_def__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def
+-- Up-to-date: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/target_offset__type_support.c
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/boundingboxresult__rosidl_typesupport_introspection_c.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/target_offset__rosidl_typesupport_introspection_c.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/yolo_raw_info__type_support.c
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/boundingboxresult__type_support.c
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/yolo_raw_info__rosidl_typesupport_introspection_c.h
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/lib/libyolov8_def__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/synaaa/object_detection_test/install/yolov8_def/lib/libyolov8_def__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/lib/libyolov8_def__rosidl_typesupport_c.so
+-- Set runtime path of "/home/synaaa/object_detection_test/install/yolov8_def/lib/libyolov8_def__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def
+-- Up-to-date: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg
+-- Up-to-date: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/yolo_raw_info__type_support.cpp
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/boundingboxresult__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/target_offset__type_support.cpp
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/yolo_raw_info__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/target_offset__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def/msg/detail/boundingboxresult__type_support.cpp
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/lib/libyolov8_def__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/synaaa/object_detection_test/install/yolov8_def/lib/libyolov8_def__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/lib/libyolov8_def__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/synaaa/object_detection_test/install/yolov8_def/lib/libyolov8_def__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/environment/pythonpath.sh
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/environment/pythonpath.dsv
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def-0.0.0-py3.10.egg-info
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/libyolov8_def__rosidl_generator_py.so
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/_yolov8_def_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/msg
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/msg/_target_offset.py
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/msg/_boundingboxresult.py
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/msg/_yolo_raw_info_s.c
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/msg/_yolo_raw_info.py
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/msg/_boundingboxresult_s.c
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/msg/_target_offset_s.c
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/msg/__init__.py
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/yolov8_def_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/_yolov8_def_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/yolov8_def_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/__init__.py
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/yolov8_def_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/_yolov8_def_s.ep.rosidl_typesupport_introspection_c.c
+Listing '/home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def'...
+Compiling '/home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/__init__.py'...
+Listing '/home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/msg'...
+Compiling '/home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/msg/__init__.py'...
+Compiling '/home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/msg/_boundingboxresult.py'...
+Compiling '/home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/msg/_target_offset.py'...
+Compiling '/home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/msg/_yolo_raw_info.py'...
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/yolov8_def_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/yolov8_def_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/yolov8_def_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/yolov8_def_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/yolov8_def_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/synaaa/object_detection_test/install/yolov8_def/local/lib/python3.10/dist-packages/yolov8_def/yolov8_def_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/lib/libyolov8_def__rosidl_generator_py.so
+-- Set runtime path of "/home/synaaa/object_detection_test/install/yolov8_def/lib/libyolov8_def__rosidl_generator_py.so" to ""
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/msg/Boundingboxresult.idl
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/msg/YoloRawInfo.idl
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/msg/TargetOffset.idl
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/msg/Boundingboxresult.msg
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/msg/YoloRawInfo.msg
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/msg/TargetOffset.msg
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/ament_index/resource_index/package_run_dependencies/yolov8_def
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/ament_index/resource_index/parent_prefix_path/yolov8_def
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/environment/ament_prefix_path.sh
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/environment/ament_prefix_path.dsv
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/environment/path.sh
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/environment/path.dsv
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/local_setup.bash
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/local_setup.sh
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/local_setup.zsh
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/local_setup.dsv
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/package.dsv
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/ament_index/resource_index/packages/yolov8_def
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/export_yolov8_def__rosidl_generator_cExport.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/export_yolov8_def__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/export_yolov8_def__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/export_yolov8_def__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/export_yolov8_def__rosidl_generator_cppExport.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/export_yolov8_def__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/export_yolov8_def__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/yolov8_def__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/yolov8_def__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/yolov8_def__rosidl_typesupport_cExport.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/yolov8_def__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/yolov8_def__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/yolov8_def__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/yolov8_def__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/yolov8_def__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/export_yolov8_def__rosidl_generator_pyExport.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/export_yolov8_def__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/yolov8_defConfig.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/cmake/yolov8_defConfig-version.cmake
+-- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/yolov8_def/package.xml

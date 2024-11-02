@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yolov8_def/msg/TargetOffset.msg
+// generated code does not contain a copyright notice
+
+
+module yolov8_def {
+  module msg {
+    struct TargetOffset {
+      double box_center_x;
+
+      double box_center_y;
+
+      double x_offset;
+
+      double y_offset;
+
+      string status;
+    };
+  };
+};
