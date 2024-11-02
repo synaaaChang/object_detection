@@ -5,14 +5,14 @@
     在yolov8/scripts/yolov8_model.py中，有一行為```self.model = YOLO('best.pt')```這個best.pt為已訓練的weight檔，因此YOLO()括號內要放入有這個weight檔的路徑，它可能會長這樣：```self.model = YOLO('~/<your_workspace>/src/yolov8/scripts/best.pt')  ```
 
 2.這個package NEED to HAVE 以下元素：
-    a.你需要把urdf弄完整,I used a package"v4l2" to create the node in order to publish a topic named "/image_raw"
-    b.先確認你的電腦是否有以下library：
-        A.```sudo apt install python3-pip``` 
-        B.```pip3 install ultralytics```
-        C.```sudo apt install ros-humble-v4l2-camera```
-        D.```sudo apt install v4l-utils```
-        E.```sudo chmod 666 /dev/video0```
-        F.You can add a yaml to make camera calibiration:
+    a.你需要把urdf弄完整,I used a package"v4l2" to create the node in order to publish a topic named "/image_raw"  
+    b.先確認你的電腦是否有以下library：  
+        A.```sudo apt install python3-pip```   
+        B.```pip3 install ultralytics```  
+        C.```sudo apt install ros-humble-v4l2-camera```  
+        D.```sudo apt install v4l-utils```  
+        E.```sudo chmod 666 /dev/video0```  
+        F.You can add a yaml to make camera calibiration:  
           ```mkdir -p ~/.ros/camera_info```
           ```nano ~/.ros/camera_info/microsoft_lifecam_nx-3000:_micr.yaml```
           ```#default settings, you can change according to your application
@@ -37,7 +37,7 @@
                 cols: 4
                 data: [500, 0, 320, 0, 0, 500, 240, 0, 0, 0, 1, 0]
           ```
-        G.You MUST FIRST RUN camera NODE:
+        G.You MUST FIRST RUN camera NODE:  
           ```sudo ros2 run v4l2_camera v4l2_camera_node --ros-args -p video_device:="/dev/video0"```
 
 3. This need to change its launch file to INTEGRATE to others.
