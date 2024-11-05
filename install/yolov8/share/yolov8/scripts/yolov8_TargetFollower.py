@@ -25,7 +25,13 @@ class TargetFollower(Node):
         self.stable_count = 0  # 合格幀數計數器
         self.stable_threshold = 3  # 設定以3幀符合才可
         self.target_found_last_status = False  # 上次目標是否已找到
-        
+
+        self.status = "lost"
+        self.box_info = {"box_center_x": 0.0, "box_center_y": 0.0, "x_offset": 0.0, "y_offset": 0.0}
+
+        # 定時器，每秒更新一次狀態信息
+        self.timer = self.create_timer(1, self.log_status)
+
     def detection_callback(self, msg):
         target_found = False  # 初始化當前幀的目標檢測狀態
         box_center_x, box_center_y, x_offset, y_offset = 0.0, 0.0, 0.0, 0.0
@@ -59,18 +65,25 @@ class TargetFollower(Node):
 
         if self.stable_count >= self.stable_threshold:
             offset_msg.status = "found"
-            if not self.target_found_last_status:  # 狀態改變時才發佈
-                self.get_logger().info(f"Found stable detection of target '{self.target_class}'.")
-            self.target_found_last_status = True
+            self.status = "found"
+            self.box_info = {
+                "box_center_x": box_center_x,
+                "box_center_y": box_center_y,
+                "x_offset": x_offset,
+                "y_offset": y_offset,
+            }
             self.stable_count = self.stable_threshold
         else:
             offset_msg.status = "lost"
-            if self.target_found_last_status:  # 狀態改變時才發佈
-                self.get_logger().info(f"Target '{self.target_class}' lost.")
-            self.target_found_last_status = False
+            self.status = "lost"
+            self.box_info = {"box_center_x": 0.0, "box_center_y": 0.0, "x_offset": 0.0, "y_offset": 0.0}
 
         # 發佈所有targetoffset.msg的內容
         self.target_pub.publish(offset_msg)  
+
+    def log_status(self):
+        # 定期輸出資訊，保持"STATUS"和"BOX_INFO"標題不變
+        self.get_logger().info(f"STATUS: {self.status} | BOX_INFO: {self.box_info}")
 
 def main(args=None):
     rclpy.init(args=args)

@@ -47,38 +47,38 @@ writing top-level names to yolov8_def.egg-info/top_level.txt
 writing manifest file 'yolov8_def.egg-info/SOURCES.txt'
 reading manifest file 'yolov8_def.egg-info/SOURCES.txt'
 writing manifest file 'yolov8_def.egg-info/SOURCES.txt'
-[  4%] Built target yolov8_def__cpp
-[ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
-[ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
-[ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
-[ 17%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_generator_c.dir/rosidl_generator_c/yolov8_def/msg/detail/target_offset__functions.c.o[0m
-[ 17%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_generator_c.dir/rosidl_generator_c/yolov8_def/msg/detail/yolo_raw_info__functions.c.o[0m
-[ 17%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_generator_c.dir/rosidl_generator_c/yolov8_def/msg/detail/boundingboxresult__functions.c.o[0m
-[ 17%] Built target ament_cmake_python_build_yolov8_def_egg
+[ 10%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_generator_c.dir/rosidl_generator_c/yolov8_def/msg/detail/boundingboxresult__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_generator_c.dir/rosidl_generator_c/yolov8_def/msg/detail/yolo_raw_info__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_generator_c.dir/rosidl_generator_c/yolov8_def/msg/detail/target_offset__functions.c.o[0m
+[ 10%] Built target yolov8_def__cpp
+[ 10%] Built target ament_cmake_python_build_yolov8_def_egg
+[ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
 [ 19%] [32m[1mLinking C shared library libyolov8_def__rosidl_generator_c.so[0m
 [ 19%] Built target yolov8_def__rosidl_generator_c
 [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
-[ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
 [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_def/msg/yolo_raw_info__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_def/msg/target_offset__type_support.cpp.o[0m
 [ 31%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_def/msg/boundingboxresult__type_support.cpp.o[0m
-[ 31%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_def/msg/target_offset__type_support.cpp.o[0m
-[ 31%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_def/msg/yolo_raw_info__type_support.cpp.o[0m
-[ 34%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_def/msg/detail/boundingboxresult__type_support.cpp.o[0m
-[ 38%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_def/msg/detail/yolo_raw_info__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_def/msg/detail/yolo_raw_info__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_def/msg/detail/boundingboxresult__type_support.cpp.o[0m
 [ 38%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_def/msg/detail/target_offset__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_def/msg/detail/dds_fastrtps/target_offset__type_support.cpp.o[0m
 [ 44%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_def/msg/detail/dds_fastrtps/yolo_raw_info__type_support.cpp.o[0m
 [ 44%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_def/msg/detail/dds_fastrtps/boundingboxresult__type_support.cpp.o[0m
-[ 44%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_def/msg/detail/dds_fastrtps/target_offset__type_support.cpp.o[0m
 [ 48%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_def/msg/yolo_raw_info__type_support.cpp.o[0m
-[ 48%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_def/msg/target_offset__type_support.cpp.o[0m
-[ 51%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_def/msg/boundingboxresult__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_def/msg/boundingboxresult__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_def/msg/target_offset__type_support.cpp.o[0m
 [ 53%] [32m[1mLinking CXX shared library libyolov8_def__rosidl_typesupport_c.so[0m
-[ 57%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_def/msg/detail/target_offset__type_support.c.o[0m
-[ 57%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_def/msg/detail/boundingboxresult__type_support.c.o[0m
-[ 59%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_def/msg/detail/yolo_raw_info__type_support.c.o[0m
-[ 63%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_def/msg/detail/boundingboxresult__type_support_c.cpp.o[0m
-[ 65%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_def/msg/detail/target_offset__type_support_c.cpp.o[0m
-[ 65%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_def/msg/detail/yolo_raw_info__type_support_c.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_def/msg/detail/boundingboxresult__type_support_c.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_def/msg/detail/target_offset__type_support_c.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/yolov8_def__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_def/msg/detail/yolo_raw_info__type_support_c.cpp.o[0m
+[ 65%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_def/msg/detail/target_offset__type_support.c.o[0m
+[ 65%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_def/msg/detail/yolo_raw_info__type_support.c.o[0m
+[ 65%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_def/msg/detail/boundingboxresult__type_support.c.o[0m
 [ 65%] Built target yolov8_def__rosidl_typesupport_c
 [ 68%] [32m[1mLinking C shared library libyolov8_def__rosidl_typesupport_introspection_c.so[0m
 [ 68%] Built target yolov8_def__rosidl_typesupport_introspection_c
@@ -86,27 +86,27 @@ writing manifest file 'yolov8_def.egg-info/SOURCES.txt'
 [ 70%] Built target yolov8_def__rosidl_typesupport_cpp
 [ 72%] [32m[1mLinking CXX shared library libyolov8_def__rosidl_typesupport_introspection_cpp.so[0m
 [ 74%] [32m[1mLinking CXX shared library libyolov8_def__rosidl_typesupport_fastrtps_cpp.so[0m
-[ 74%] Built target yolov8_def__rosidl_typesupport_introspection_cpp
-[ 74%] Built target yolov8_def__rosidl_typesupport_fastrtps_cpp
 [ 76%] [32m[1mLinking CXX shared library libyolov8_def__rosidl_typesupport_fastrtps_c.so[0m
+[ 76%] Built target yolov8_def__rosidl_typesupport_introspection_cpp
+[ 76%] Built target yolov8_def__rosidl_typesupport_fastrtps_cpp
 [ 76%] Built target yolov8_def__rosidl_typesupport_fastrtps_c
 [ 76%] Built target yolov8_def
 [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
 [ 78%] Built target yolov8_def__py
-[ 85%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_generator_py.dir/rosidl_generator_py/yolov8_def/msg/_target_offset_s.c.o[0m
 [ 85%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_generator_py.dir/rosidl_generator_py/yolov8_def/msg/_yolo_raw_info_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_generator_py.dir/rosidl_generator_py/yolov8_def/msg/_target_offset_s.c.o[0m
 [ 85%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_generator_py.dir/rosidl_generator_py/yolov8_def/msg/_boundingboxresult_s.c.o[0m
 [ 87%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_def/libyolov8_def__rosidl_generator_py.so[0m
 [ 87%] Built target yolov8_def__rosidl_generator_py
-[ 93%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolov8_def/_yolov8_def_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
 [ 93%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolov8_def/_yolov8_def_s.ep.rosidl_typesupport_introspection_c.c.o[0m
 [ 93%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolov8_def/_yolov8_def_s.ep.rosidl_typesupport_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/yolov8_def__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolov8_def/_yolov8_def_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_def/yolov8_def_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_def/yolov8_def_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
 [100%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_def/yolov8_def_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
-[100%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_def/yolov8_def_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
-[100%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_def/yolov8_def_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
 [100%] Built target yolov8_def__rosidl_typesupport_introspection_c__pyext
-[100%] Built target yolov8_def__rosidl_typesupport_fastrtps_c__pyext
 [100%] Built target yolov8_def__rosidl_typesupport_c__pyext
+[100%] Built target yolov8_def__rosidl_typesupport_fastrtps_c__pyext
 -- Install configuration: ""
 -- Installing: /home/synaaa/object_detection_test/install/yolov8_def/share/ament_index/resource_index/rosidl_interfaces/yolov8_def
 -- Installing: /home/synaaa/object_detection_test/install/yolov8_def/include/yolov8_def/yolov8_def

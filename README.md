@@ -62,4 +62,5 @@ Version:
 2-設置置信度的值：在 self.detect_result.confidence 中設置置信度。
 3-增加targetoffset.msg (bounding box的x, y座標與偏移量以及狀態)
 4-增加yolov8_TargetFollower.py，以計算並且發佈targetoffset.msg的內容
+5-Renew info appearance
 

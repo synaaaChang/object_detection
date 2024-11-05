@@ -1,0 +1,54 @@
+[0.007s] Invoking command in '/home/synaaa/object_detection_test/build/yolov8': CMAKE_PREFIX_PATH=/home/synaaa/object_detection_test/install/yolov8_def:/home/synaaa/object_detection_test/install/yolov8:/opt/ros/humble LD_LIBRARY_PATH=/home/synaaa/object_detection_test/install/yolov8_def/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/synaaa/object_detection_test/yolov8 -DCMAKE_INSTALL_PREFIX=/home/synaaa/object_detection_test/install/yolov8
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.092s] -- The CXX compiler identification is GNU 11.4.0
+[0.097s] -- Detecting C compiler ABI info
+[0.152s] -- Detecting C compiler ABI info - done
+[0.157s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.157s] -- Detecting C compile features
+[0.157s] -- Detecting C compile features - done
+[0.159s] -- Detecting CXX compiler ABI info
+[0.224s] -- Detecting CXX compiler ABI info - done
+[0.229s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.229s] -- Detecting CXX compile features
+[0.229s] -- Detecting CXX compile features - done
+[0.231s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.496s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.565s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.624s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.625s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.626s] -- Added test 'lint_cmake' to check CMake code style
+[0.626s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.627s] -- Added test 'xmllint' to check XML markup files
+[0.628s] -- Configuring done
+[0.630s] -- Generating done
+[0.631s] -- Build files have been written to: /home/synaaa/object_detection_test/build/yolov8
+[0.635s] Invoked command in '/home/synaaa/object_detection_test/build/yolov8' returned '0': CMAKE_PREFIX_PATH=/home/synaaa/object_detection_test/install/yolov8_def:/home/synaaa/object_detection_test/install/yolov8:/opt/ros/humble LD_LIBRARY_PATH=/home/synaaa/object_detection_test/install/yolov8_def/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/synaaa/object_detection_test/yolov8 -DCMAKE_INSTALL_PREFIX=/home/synaaa/object_detection_test/install/yolov8
+[0.636s] Invoking command in '/home/synaaa/object_detection_test/build/yolov8': CMAKE_PREFIX_PATH=/home/synaaa/object_detection_test/install/yolov8_def:/home/synaaa/object_detection_test/install/yolov8:/opt/ros/humble LD_LIBRARY_PATH=/home/synaaa/object_detection_test/install/yolov8_def/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/synaaa/object_detection_test/build/yolov8 -- -j16 -l16
+[0.666s] Invoked command in '/home/synaaa/object_detection_test/build/yolov8' returned '0': CMAKE_PREFIX_PATH=/home/synaaa/object_detection_test/install/yolov8_def:/home/synaaa/object_detection_test/install/yolov8:/opt/ros/humble LD_LIBRARY_PATH=/home/synaaa/object_detection_test/install/yolov8_def/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/synaaa/object_detection_test/build/yolov8 -- -j16 -l16
+[0.686s] Invoking command in '/home/synaaa/object_detection_test/build/yolov8': CMAKE_PREFIX_PATH=/home/synaaa/object_detection_test/install/yolov8_def:/home/synaaa/object_detection_test/install/yolov8:/opt/ros/humble LD_LIBRARY_PATH=/home/synaaa/object_detection_test/install/yolov8_def/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/synaaa/object_detection_test/build/yolov8
+[0.692s] -- Install configuration: ""
+[0.692s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8//scripts
+[0.692s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8//scripts/yolov8_model.py
+[0.692s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8//scripts/best.pt
+[0.697s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8//scripts/yolov8_TargetFollower.py
+[0.697s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8//launch
+[0.698s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8//launch/launch_yolov8.py
+[0.698s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/lib/yolov8/yolov8_model.py
+[0.698s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/lib/yolov8/yolov8_TargetFollower.py
+[0.698s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/lib/yolov8/launch_yolov8.py
+[0.698s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/ament_index/resource_index/package_run_dependencies/yolov8
+[0.698s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/ament_index/resource_index/parent_prefix_path/yolov8
+[0.698s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/environment/ament_prefix_path.sh
+[0.698s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/environment/ament_prefix_path.dsv
+[0.699s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/environment/path.sh
+[0.699s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/environment/path.dsv
+[0.699s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/local_setup.bash
+[0.699s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/local_setup.sh
+[0.699s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/local_setup.zsh
+[0.699s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/local_setup.dsv
+[0.699s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/package.dsv
+[0.699s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/ament_index/resource_index/packages/yolov8
+[0.700s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/cmake/yolov8Config.cmake
+[0.700s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/cmake/yolov8Config-version.cmake
+[0.700s] -- Installing: /home/synaaa/object_detection_test/install/yolov8/share/yolov8/package.xml
+[0.702s] Invoked command in '/home/synaaa/object_detection_test/build/yolov8' returned '0': CMAKE_PREFIX_PATH=/home/synaaa/object_detection_test/install/yolov8_def:/home/synaaa/object_detection_test/install/yolov8:/opt/ros/humble LD_LIBRARY_PATH=/home/synaaa/object_detection_test/install/yolov8_def/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/synaaa/object_detection_test/build/yolov8
